@@ -15,7 +15,7 @@
   <h1>Svelte + Node.js API</h1>
   <h2>
     Deployed with
-    { drew }
+    { name }
   </h2>
   <p>
     <a
