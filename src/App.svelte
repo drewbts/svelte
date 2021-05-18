@@ -1,6 +1,8 @@
 <script>
   import { onMount } from "svelte";
   export let date;
+  
+  let name = "Drew"
 
   onMount(async () => {
     const res = await fetch("/api/date");
@@ -13,10 +15,7 @@
   <h1>Svelte + Node.js API</h1>
   <h2>
     Deployed with
-    <a href="https://vercel.com/docs" target="_blank" rel="noreferrer noopener">
-      Vercel
-    </a>
-    !
+    { drew }
   </h2>
   <p>
     <a
