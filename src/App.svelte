@@ -12,19 +12,12 @@
 </script>
 
 <main>
-  <h1>Svelte + Node.js API</h1>
+  <h1>Structures.</h1>
   <h2>
-    Deployed with
-    { name }
+  Tag line.
   </h2>
   <p>
-    <a
-      href="https://github.com/vercel/vercel/tree/main/examples/svelte"
-      target="_blank"
-      rel="noreferrer noopener">
-      This project
-    </a>
-    is a
+    This project is a
     <a href="https://svelte.dev/">Svelte</a>
     app with three directories,
     <code>/public</code>
