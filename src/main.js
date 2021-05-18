@@ -1,5 +1,5 @@
 import App from './App.svelte';
-
+import { OrbitControls } from './vendor/three/examples/jsm/controls/OrbitControls.js';
 import {
   PerspectiveCamera,
   MeshStandardMaterial,
