@@ -6,16 +6,6 @@ import {
 } from 'https://unpkg.com/three@0.117.0/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.117.0/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'https://unpkg.com/three@0.117.0/examples/jsm/loaders/GLTFLoader.js';
-
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
-});
-
-export default app;
-
 import {
   BoxBufferGeometry,
   Color,
@@ -25,6 +15,15 @@ import {
   Scene,
   WebGLRenderer,
 } from 'three';
+
+const app = new App({
+	target: document.body,
+	props: {
+		name: 'world'
+	}
+});
+
+export default app;
 
 // Get a reference to the container element that will hold our scene
 const container = document.querySelector('#scene-container');
